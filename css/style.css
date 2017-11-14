@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #DAF6DA;
+  color: #0000C2;
+  font-size: 1em; /* 16px */
 }
 
 nav {
@@ -8,6 +9,23 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+}
+
+h2 {
+  font-size: 1.5em; /* 24px */
+  font-style: italic;
+}
+
+h3 {
+  font-size: 1.2em; /* 19px */
+}
+
+p {
+  line-height: 1.8;
 }
 
 .logo {
@@ -23,27 +41,33 @@ nav {
   width: 70%;
 }
 
-.left, .right {
+.left {
   float: left;
   width: 50%;
 }
 
-.right {
-  float: right;
-}
-
-ul {
-  list-style-type: none;
-  float: right;
-}
 
 li {
   float: right;
   padding: 30px;
+  font-size: 1.125em; /* 18px */
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
 
 article {
   padding-top: 100px;
+}
+
+figure {
+  font-size: .938em; /* 15px */
 }
 
 .container {
